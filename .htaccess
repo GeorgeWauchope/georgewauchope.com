@@ -1,5 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^georgewauchope.com [NC]
+RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [L,R=301]
 RewriteBase /
 RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
