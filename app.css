@@ -48,8 +48,11 @@ table {
 }
 
 
-
-
 h1 {
-    color: blue;
+    color: aqua;
+}
+
+
+p {
+    color: black;
 }
