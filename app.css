@@ -48,12 +48,27 @@ table {
 }
 
 
+/* Below this line is all CSS I added. Above this line is CSS boilerplate I added at start of project */
+
 h1 {
-    color: red;
-    font-size: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+h2 {
+	color: white;
+	font-size: 2rem;
+}
+
+p {
+	color: white;
+}
+
+body {
+	background-color: #023e8a;
 }
 
 
-p {
-    color: yellow;
+.topNavBarItems {
+	color: white;
 }
