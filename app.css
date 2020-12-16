@@ -110,7 +110,7 @@ display: flex;
 
 .toggle-button {
 	position: absolute;
-	top: 0.75rem;
+	top: 1.75rem;
 	right: 1rem;
 	display: none;
 	flex-direction: column;
