@@ -224,7 +224,26 @@ h1 {
   text-align: center;
 }
 
+.logos {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
 
+.linkedin {
+	margin-right: 40px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	padding: 10px;
+}
+
+.github {
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	padding: 10px;
+}
 
 h2 {
   color: white;
