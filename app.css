@@ -287,9 +287,6 @@ img {
   max-width: 100%;
 }
 
-.contactMe {
-  margin-top: 50px;
-}
 
 .button {
   background: none;
@@ -333,6 +330,11 @@ img {
 .internalContainerRight {
   flex: 1;
   padding: 10px;
+}
+
+
+.contactMe {
+  margin-bottom: 30px;
 }
 
 /* Media Queries Below: */
