@@ -225,25 +225,26 @@ h1 {
 }
 
 .logos {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .linkedin {
-	margin-right: 20px;
-	border-style: solid;
-	border-color: white;
-	border-width: 2px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
   padding: 10px;
   max-width: 60px;
   max-height: 60px;
 }
 
 .github {
-	border-style: solid;
-	border-color: white;
-	border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
   padding: 10px;
   max-width: 60px;
   max-height: 60px;
@@ -257,7 +258,6 @@ h1 {
   cursor: pointer;
 }
 
-
 .github:hover {
   border-color: #f1ff5c;
   color: white;
@@ -265,7 +265,6 @@ h1 {
   transform: translateY(-0.25em);
   cursor: pointer;
 }
-
 
 h2 {
   color: white;
@@ -283,11 +282,9 @@ p {
   margin-bottom: 8px;
 }
 
-
 img {
   max-width: 100%;
 }
-
 
 .button {
   background: none;
@@ -333,10 +330,11 @@ img {
   padding: 10px;
 }
 
-
 .contactMe {
   margin-bottom: 30px;
 }
+
+
 
 /* Media Queries Below: */
 
