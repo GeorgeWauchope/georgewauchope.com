@@ -348,6 +348,64 @@ a {
   color: white;
 }
 
+
+
+
+
+/* Below Is CSS For Portfolio Page: */
+
+.introText {
+  margin-bottom: -30px;
+}
+
+
+
+.portfolioContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: -30px;
+}
+
+.gif {
+  margin-bottom: -80px;
+}
+
+.portfolioButtonPage {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: border-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+  width: 270px;
+  text-align: center;
+}
+
+.portfolioButton:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.portfolioButtonPosition {
+  display: flex;
+  justify-content: center;
+}
+
+/* Above Is CSS For Portfolio Page */
+
+
+
+
+
 /* Media Queries Below: */
 
 @media (max-width: 850px) {
