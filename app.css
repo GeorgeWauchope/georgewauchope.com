@@ -217,6 +217,11 @@ html {
   background: transparent; /* make scrollbar transparent */
 }
 
+.containerH1 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 h1 {
   color: white;
   font-size: calc(2.5rem + 0.8vw);
@@ -277,7 +282,7 @@ h2 {
 p {
   color: white;
   text-align: center;
-  font-size: calc(1rem + 0.8vw);
+  font-size: calc(0.9rem + 0.8vw);
   line-height: 1.3;
   margin-bottom: 8px;
 }
@@ -298,7 +303,7 @@ img {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
-  width: 290px;
+  width: 270px;
   text-align: center;
 }
 
@@ -321,6 +326,8 @@ img {
 }
 
 .internalContainerLeft {
+  display: flex;
+  align-items: center;
   flex: 1;
   padding: 10px;
 }
@@ -331,10 +338,13 @@ img {
 }
 
 .contactMe {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
-
+a {
+  text-decoration: ;
+  color: white;
+}
 
 /* Media Queries Below: */
 
