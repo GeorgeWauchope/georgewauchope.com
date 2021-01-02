@@ -333,6 +333,8 @@ img {
 }
 
 .internalContainerRight {
+  display: flex;
+  justify-content: center;
   flex: 1;
   padding: 10px;
 }
