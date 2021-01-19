@@ -141,7 +141,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #03045e;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #fff;
 }
 
@@ -222,6 +222,7 @@ html {
 .containerH1 {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 5px;
 }
 
 h1 {
@@ -323,21 +324,18 @@ img {
 }
 
 .holdingContainer {
-  width: 100%;
-  display: flex;
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.internalContainerLeft {
-  display: flex;
-  align-items: center;
-  flex: 1;
+.holdingContainer p {
+  margin-bottom: -20px;
   padding: 10px;
 }
 
-.internalContainerRight {
-  display: flex;
-  justify-content: center;
-  flex: 1;
+.holdingContainer img {
   padding: 10px;
 }
 
@@ -441,4 +439,287 @@ a {
   }
 }
 
+@media (min-width: 1900px) {
+  .containerH1 {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: calc(3rem + 0.8vw);
+  }
+
+  h2 {
+    font-size: calc(2.5rem + 0.8vw);
+  }
+
+  p {
+    font-size: calc(1rem + 0.8vw);
+    line-height: 1;
+  }
+
+  .button {
+    background: none;
+    color: black;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    transition: border-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .holdingContainer {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .holdingContainer p {
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
+  .holdingContainer img {
+    padding: 10px;
+    width: 80%;
+  }
+
+  /* Below is CSS for top navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03045e;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+
+  .brand-title {
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+    font-size: 1.8rem;
+    margin-right: 30px;
+  }
+
+  .brandLink {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+  }
+
+  .navbar-links li:hover {
+    background-color: #f0efeb;
+  }
+
+  .navbar-links li a:hover {
+    color: black;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
+@media (min-width: 2500px) {
+  .containerH1 {
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: calc(3.5rem + 0.8vw);
+  }
+
+  h2 {
+    font-size: calc(3rem + 0.8vw);
+  }
+
+  p {
+    font-size: calc(1.4rem + 0.8vw);
+    line-height: 1.2;
+  }
+
+  .button {
+    background: none;
+    color: black;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.6em;
+    transition: border-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 450px;
+    text-align: center;
+  }
+
+  .holdingContainer {
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .holdingContainer p {
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
+  .holdingContainer img {
+    padding: 10px;
+    width: 80%;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .linkedin {
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .github {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  /* Below is CSS for top navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03045e;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+
+  .brand-title {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+    font-size: 2.5rem;
+    margin-right: 50px;
+  }
+
+  .brandLink {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+  }
+
+  .navbar-links li:hover {
+    background-color: #f0efeb;
+  }
+
+  .navbar-links li a:hover {
+    color: black;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
 /* Media Queries End Here: */
