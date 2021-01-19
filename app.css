@@ -722,4 +722,114 @@ a {
     display: flex;
   }
 }
+
+/* Below is media queries for Portfolio: */
+@media (min-width: 1700px) {
+  .introText {
+    margin-bottom: -30px;
+  }
+
+  .portfolioContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: -30px;
+  }
+
+  .portfolioContainer p {
+    margin-bottom: 17px;
+  }
+
+  .portfolioContainer img {
+    width: 100%;
+  }
+
+  .gif {
+    margin-bottom: -80px;
+  }
+
+  .portfolioButtonPage {
+    background: none;
+    color: black;
+    border: 2px solid;
+    padding: 0.8em 1em;
+    font-size: 2em;
+    transition: border-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    width: 370px;
+    text-align: center;
+  }
+
+  .portfolioButtonPage:hover {
+    border-color: #0096c7;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #0096c7;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+  .portfolioButtonPosition {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 2500px) {
+  .introText {
+    margin-bottom: -30px;
+  }
+
+  .portfolioContainer {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: -30px;
+    margin-top: 100px;
+  }
+
+  .portfolioContainer p {
+    margin-bottom: 17px;
+  }
+
+  .portfolioContainer img {
+    width: 100%;
+  }
+
+  .gif {
+    margin-bottom: -80px;
+  }
+
+  .portfolioButtonPage {
+    background: none;
+    color: black;
+    border: 2px solid;
+    padding: 0.8em 1em;
+    font-size: 3em;
+    transition: border-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+  }
+
+  .portfolioButtonPage:hover {
+    border-color: #0096c7;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #0096c7;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+  .portfolioButtonPosition {
+    display: flex;
+    justify-content: center;
+  }
+}
 /* Media Queries End Here: */
